@@ -1,0 +1,23 @@
+# Build artifacts
+zig-out/
+.zig-cache/
+
+# Advent of Code input files and folders
+# Ignore any directory literally named "inputs"
+**/inputs/
+# Ignore common AoC-style input files
+**/input.txt
+**/input-*.txt
+**/day*/input.txt
+**/day-*/input.txt
+**/day??.txt
+
+# Editor/OS noise
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment / secrets
+.env
+.env.*

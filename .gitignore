@@ -1,0 +1,24 @@
+# Ignore all text files (AoC puzzle inputs etc.)
+*.txt
+
+# Build artifacts (Zig, Rust, etc.)
+zig-out/
+.zig-cache/
+**/zig-out/
+**/.zig-cache/
+target/
+**/target/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.log
+
+# Environment / secrets
+.env
+.env.*
